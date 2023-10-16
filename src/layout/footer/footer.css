@@ -1,0 +1,141 @@
+.footer-section {
+	background-color: #000;
+	color: white;
+	padding: 1px 70px;
+	margin-top: 50px;
+}
+.copyright-inner-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #000;
+	font-size: 20px;
+}
+.copyright-content img {
+	height: 30px;
+	width: 100%;
+}
+.footer-inner-content {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+	padding: 20px 0px;
+}
+.inner-about-us {
+	width: 28%;
+}
+.footer-inner-content .title {
+	margin-bottom: 16px;
+	font-size: 1.25rem;
+	font-family: sans-serif;
+	font-weight: 700;
+}
+.inner-about-us p {
+	font-family: Poppins, sans-serif;
+	line-height: 1.5;
+	font-size: 1rem;
+	font-weight: 400;
+	position: relative;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 0;
+}
+.inner-about-Main.Services {
+	width: 20%;
+	padding-left: 37px;
+}
+.inner-about-Main.Services ul {
+	padding: 0px;
+	margin: 0px;
+}
+.inner-about-Main.Services ul li {
+	list-style: none;
+	padding: 0px 0px 7px 0px;
+}
+.inner-about-Main.Services ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+.inner-about-Contect.with.us {
+	width: 20%;
+}
+.social-icon ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.social-icon ul {
+	padding: 0;
+}
+.social-icon ul li {
+	list-style: none;
+	font-size: 20px;
+	display: flex;
+	margin-bottom: 18px;
+	align-items: center;
+}
+.myicon {
+	background: white;
+	color: black;
+	border-radius: 5px;
+	position: relative;
+	left: -8px;
+}
+.box {
+	color: black;
+	background: white;
+	font-size: 29px;
+	border-radius: 5px;
+}
+
+.inner-about-News-allert {
+	width: 28%;
+}
+label.sapm-email {
+	font-family: sans-serif;
+	font-size: 18px;
+	margin: 10px 4px;
+}
+.input-mailbox {
+	margin-bottom: 35px;
+}
+input.inputfield {
+	padding: 15px 62px;
+	border-radius: 9px;
+	margin-top: 11px;
+}
+.aap-buttons {
+	position: relative;
+	display: flex;
+	gap: 16px;
+}
+
+@media (max-width: 900px) {
+	.footer-section {
+		padding: 10px;
+		margin-top: 10px;
+	}
+	.footer-inner-content {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 5px;
+		padding: 20px 0px;
+		flex-direction: column;
+	}
+	.inner-about-us {
+		width: 100%;
+	}
+	.inner-about-Main.Services {
+		width: 100%;
+		padding-left: 5px;
+	}
+	.inner-about-Contect.with.us {
+		width: 100%;
+		padding-left: 10px;
+	}
+	.inner-about-News-allert {
+		width: 100%;
+	}
+}

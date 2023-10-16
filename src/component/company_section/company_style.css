@@ -1,0 +1,44 @@
+.wrapper {
+	background-color: #e4e6e8;
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+.company-container h3 {
+	font-size: 1.17em;
+	font-weight: 700;
+	margin: 21px 0;
+}
+.company-container p {
+	font-size: 18px;
+	line-height: 1.5;
+}
+.company-container a {
+	margin-top: 10px;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+}
+.company-container a span {
+	font-size: 18px;
+	margin-right: 10px;
+}
+
+@media (max-width: 900px) {
+}
+
+@media (min-width: 901px) {
+	.wrapper {
+		padding: 30px;
+		border-radius: 10px;
+		padding-right: 345px;
+		background: url(/src/assets/images/megaphone.webp) right center no-repeat,
+			url(/src//assets/images/bg-megaphone.svg) right top/contain no-repeat;
+		background-color: #e4e6e8;
+	}
+	.company-container {
+		padding: 75px;
+	}
+}

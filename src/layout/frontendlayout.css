@@ -1,0 +1,19 @@
+.main-container {
+	padding: 20px 70px;
+	background: radial-gradient(
+		132% 132% at 50% 50%,
+		rgb(233 234 235) 0,
+		rgba(101, 108, 120, 0.25) 100%
+	);
+	border-radius: 0 0 26px 26px;
+}
+
+.main-layout {
+	padding: 20px;
+}
+
+@media (max-width: 900px) {
+	.main-container {
+		padding: 10px;
+	}
+}

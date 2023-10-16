@@ -1,0 +1,39 @@
+/*navbar-right */
+.main-navbar {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 40px 70px 0 70px;
+	justify-content: space-between;
+}
+
+.login-link a {
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+	font-family: sans-serif;
+}
+
+.navbar-radius {
+	background: radial-gradient(
+		132% 132% at 50% 50%,
+		rgb(233 234 235) 0,
+		rgba(101, 108, 120, 0.25) 100%
+	);
+	border-radius: 26px 26px 0 0;
+}
+
+.banner-text h1 {
+	font-size: 35px;
+}
+.banner-text p {
+	font-size: 1em;
+	font-weight: 700;
+	margin-bottom: 2rem;
+}
+
+@media (max-width: 900px) {
+	.main-navbar {
+		padding: 40px 10px 0 10px;
+	}
+}
