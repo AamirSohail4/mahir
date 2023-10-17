@@ -133,7 +133,7 @@ export const Banner = () => {
 						<div>0301-9696321</div>
 					</div>
 					<div className='social-info '>
-						<div className='whatimg'>
+						<div className='whatimg   chat-img '>
 							<img src={chat} alt='' />
 						</div>
 						<div>chat</div>

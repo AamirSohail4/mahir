@@ -23,6 +23,12 @@
 .whatimg {
 	height: 30px;
 	width: 30px;
+	padding: 5px;
+	border-radius: 16px;
+	background-color: white;
+}
+.chat-img {
+	background: #292424 !important;
 }
 .whatimg img {
 	height: 100%;
