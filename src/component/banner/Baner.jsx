@@ -5,7 +5,11 @@ import solar from '../../assets/images/solar.webp';
 import inspection from '../../assets/images/home-inspection.webp';
 import beautician1 from '../../assets/images/beautician1.png';
 import mahir from '../../assets/images/mahir.svg';
+import chat from '../../assets/images/chat.svg';
+import mobile from '../../assets/images/mobile.svg';
+import whatsapp from '../../assets/images/whatsapp.svg';
 import { BannerSlider } from '../slider/BannerSlider';
+// import './banner';
 import './banner.css';
 import { selectData } from './selectData';
 import { useState } from 'react';
@@ -114,6 +118,26 @@ export const Banner = () => {
 				</div>
 				<div className='banner-content-rightside'>
 					<BannerSlider />
+				</div>
+				<div className='contact-info'>
+					<div className='social-info'>
+						<div className='whatimg'>
+							<img src={whatsapp} alt='' />
+						</div>
+						<div>0301-9858485</div>
+					</div>
+					<div className='social-info '>
+						<div className='whatimg '>
+							<img src={mobile} alt='' />
+						</div>
+						<div>0301-9696321</div>
+					</div>
+					<div className='social-info '>
+						<div className='whatimg'>
+							<img src={chat} alt='' />
+						</div>
+						<div>chat</div>
+					</div>
 				</div>
 			</div>
 		</div>

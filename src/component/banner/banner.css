@@ -1,3 +1,58 @@
+.contact-info {
+	position: fixed;
+	top: 50px;
+	right: 0px;
+	z-index: 99999;
+}
+
+.social-info {
+	background-color: rgb(39, 38, 38);
+	color: white;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 20px;
+	padding: 7px;
+	border-radius: 3px;
+	transform: translateX(73%);
+	transition: transform 1s;
+}
+.social-info:hover {
+	transform: translateX(-5%);
+}
+.whatimg {
+	height: 30px;
+	width: 30px;
+}
+.whatimg img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+/*
+.whatspa-img {
+	position: relative;
+	height: 40px;
+	width: 40px;
+	background-color: white;
+	padding: 0px;
+	margin-right: 12px;
+	border-radius: 31px;
+}
+.whatspa-img img {
+	height: 20px;
+	width: 37px;
+	top: 10px;
+	position: relative;
+}
+.phone-info span {
+}
+.chat-img img {
+	top: 2px;
+	position: relative;
+	padding: 5px;
+	margin-right: 11px;
+} */
 .services-leftside {
 	display: flex;
 	flex-wrap: wrap;
