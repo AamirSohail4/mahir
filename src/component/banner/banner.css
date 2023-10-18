@@ -35,6 +35,155 @@
 	width: 100%;
 	object-fit: cover;
 }
+.chatform-header {
+	background-color: #fa646a;
+	color: white;
+	padding: 5px 13px;
+	font-family: sans-serif;
+}
+.cordinater-section {
+	display: flex;
+	justify-content: space-between;
+	font-size: 25px;
+	border: 1px solid #e97d81;
+}
+.chat-text-demo p {
+	padding: 0px 12px;
+}
+.chat-form {
+	height: 437px;
+	width: 301px;
+	background-color: white;
+	border: 1px solid darkgrey;
+	position: absolute;
+	top: -32px;
+	right: 120px;
+}
+.hide {
+	display: none;
+}
+.visibal {
+	display: block;
+}
+
+.addfree-chat {
+	height: 20px;
+	font-family: sans-serif;
+	font-size: 12px;
+	text-align: center;
+	width: 100%;
+	align-items: center;
+	display: flex;
+	margin: 16px 0px;
+	justify-content: center;
+}
+.addfree-chat img {
+	height: 100%;
+	width: auto;
+	display: inline-block;
+	margin: 0px 0px 4px 0px;
+}
+textarea.text-area {
+	outline: none;
+	border: 0px;
+	height: 200px;
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+}
+.chatform-middle-section {
+	height: 200px;
+}
+.chatform-footer-section {
+	border: 2px;
+	border-radius: 4px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.chat-here {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.chat-here textarea {
+	border: none;
+	outline: none;
+	width: 100px;
+}
+.chat-here {
+	display: flex;
+	padding: 0px 6px;
+}
+.imog-section {
+	display: flex;
+	gap: 12px;
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+.manu-box {
+	background-color: #ffffff;
+	height: 180px;
+	width: 264px;
+	border-radius: 15px;
+	position: absolute;
+	top: 43px;
+	left: 22px;
+	box-shadow: rgba(10, 10, 0, 0.4) 0px 10px 5px;
+}
+.manu-item:hover {
+	background-color: #f6f6f6;
+}
+
+.manu-item {
+	margin: 10px 7px;
+	font-size: 15px;
+	padding: 6px 29px;
+}
+.manu-box:before {
+	content: '';
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 16px solid white;
+	position: absolute;
+	right: 14px;
+	top: -16px;
+}
+.manu-item span svg {
+	margin-right: 10px;
+}
+.chatus-togglebtn:hover {
+	transform: translateZ(10px);
+}
+
+.chatus-togglebtn {
+	height: 50px;
+	width: 50px;
+	background-color: #fa646a;
+	border-radius: 50px;
+	position: relative;
+	transform: translateX(10px);
+	bottom: 100px;
+	left: 57px;
+}
+.chatus-togglebtn span svg {
+	font-size: 25px;
+	align-items: center;
+	position: relative;
+	color: white;
+}
+svg.closingsvg.iconify.iconify--fa6-solid {
+	display: none;
+}
+svg.chatingsvg.iconify.iconify--fluent {
+	font-size: 35px;
+	top: -5px;
+	right: 5px;
+}
+.chatus-togglebtn span {
+	position: absolute;
+	top: 13px;
+	left: 14px;
+}
 /*
 .whatspa-img {
 	position: relative;
@@ -135,7 +284,7 @@
 }
 
 .select-city-container input {
-	width: 60%;
+	width: 63%;
 	outline: none;
 	border: none;
 	font-size: 25px;
@@ -212,4 +361,13 @@
 	.services-leftside .services-box {
 		width: 100%;
 	}
+}
+.cross-button {
+	background-color: red; /* Add your cross-button styles here */
+	color: white;
+}
+
+.normal-button {
+	background-color: green; /* Add your normal-button styles here */
+	color: white;
 }
